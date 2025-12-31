@@ -63,8 +63,8 @@ netlify deploy --prod
 The `netlify.toml` file contains all necessary build settings including:
 - Base directory: `SkyLabs`
 - Build command: `npm install --legacy-peer-deps && npm run build`
-- Publish directory: `.next`
-- Netlify Next.js plugin for optimized deployment
+- Publish directory: `out` (static export output)
+- SPA redirect rule for client-side routing
 
 ## Tech Stack
 
